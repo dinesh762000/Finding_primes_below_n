@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+//to display a vector
 void displayVector(vector<int> vec){
     if(vec.size()==0){
         cout<<"Array is empty";
@@ -10,6 +11,7 @@ void displayVector(vector<int> vec){
     
     cout<<endl<<"End of array";
 }
+//to return a vector that contains primes less than n
 vector<int> primesBelowN(int n){
     vector<int> vec;
     if(n<2) return vec;
